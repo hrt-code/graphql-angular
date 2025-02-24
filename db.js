@@ -10,5 +10,12 @@ module.exports = {
   comments: [
       { id: 987, post_id: 1, body: "Consectetur adipiscing elit", date: new Date('2017-07-03') },
       { id: 995, post_id: 1, body: "Nam molestie pellentesque dui", date: new Date('2017-08-17') }
-  ]
+  ],
+  survey:[
+    { id: 987, isActive: true,introPage:{},outroPage:{},questions:{},  
+    title: "Consectetur ", startDateTime: new Date('2025-07-03'), endDateTime: new Date('2025-11-03')},
+    { id: 995, isActive: true,introPage:{},outroPage:{},questions:{},  
+    title: "Supermarket", startDateTime: new Date('2025-08-17'),endDateTime: new Date('2025-12-17') }
+  ] 
+
 }
